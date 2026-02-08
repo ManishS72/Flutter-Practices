@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Container Demo Home Page'),
     );
   }
 }
@@ -42,18 +42,18 @@ class _MyHomePageState extends State<MyHomePage> {
 
         title: Text(widget.title),
       ),
+
       body: Center(
-        child: Column(
-          mainAxisAlignment: .center,
-          children: [
-            const Text('You have pushed the button this many times:'),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
+        child: Container(
+          width: 250,
+          height: 200,
+          color: Colors.amber,
+          child: Center(
+            child: Text("Hello, Manish", style: TextStyle(fontSize: 20)),
+          ),
         ),
       ),
+
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
