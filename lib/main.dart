@@ -19,29 +19,27 @@ class FlutterApp extends StatelessWidget {
 }
 
 class DashBoardScreen extends StatelessWidget {
-
   @override
   Widget build(Object context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("DashBoard")),
+      appBar: AppBar(title: Text("DashBoard")),
 
-      body:Container(
+      body: Container(
         width: double.infinity,
         height: double.infinity,
         color: Colors.blue.shade50,
- 
+
         child: Center(
           child: Container(
             width: 100,
             height: 100,
-            
+
             decoration: BoxDecoration(
               color: Colors.blueGrey,
-              borderRadius: BorderRadius.circular(75)
+              borderRadius: BorderRadius.circular(75),
             ),
           ),
-          ),
+        ),
       ),
     );
   }
