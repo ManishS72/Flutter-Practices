@@ -43,15 +43,18 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
 
-      body: Center(
+      body:Center(
         child: Container(
-          width: 250,
-          height: 200,
-          color: Colors.amber,
-          child: Center(
-            child: Text("Hello, Manish", style: TextStyle(fontSize: 20)),
-          ),
-        ),
+        width: 200,
+        height: 200,
+        color: Colors.blue,
+        child: Center(
+        child: Text("Hello", style: TextStyle(
+        fontSize: 34,
+        fontWeight: FontWeight.bold,
+        backgroundColor: Colors.amber,
+        color: Colors.green),),),
+      ),
       ),
     );
   }
