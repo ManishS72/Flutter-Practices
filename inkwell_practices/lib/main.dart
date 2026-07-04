@@ -58,12 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
             width: 250,
             height: 80,
             child: const Center(
-              child:  Text(
-              "Click Me..",
-              style: TextStyle(
-                color: Colors.white,
-              ),
-              ),
+              child: Text("Click Me...", style: TextStyle(color: Colors.white)),
             ),
           ),
         ),
