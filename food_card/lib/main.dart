@@ -62,7 +62,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                 ),
 
-                Image.asset("assets/images/Manish.jpeg", width: 50, height: 50),
+                Icon(Icons.person,
+                size: 40,
+                color: Colors.blue),
               ],
             ),
 
