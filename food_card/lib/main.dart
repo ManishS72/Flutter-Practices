@@ -62,9 +62,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                 ),
 
-                Icon(Icons.person,
-                size: 40,
-                color: Colors.blue),
+                CircleAvatar(
+                  radius: 30,
+                  backgroundImage: AssetImage(
+                    "assets/images/profile.jpeg",
+                  
+                  ),
+                ),
               ],
             ),
 
